@@ -12,6 +12,9 @@
 		C6FC54FF2015A520009D2666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FC54FD2015A520009D2666 /* Main.storyboard */; };
 		C6FC55012015A520009D2666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FC55002015A520009D2666 /* Assets.xcassets */; };
 		C6FC55042015A520009D2666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FC55022015A520009D2666 /* LaunchScreen.storyboard */; };
+		C6FC550C2015AB3C009D2666 /* AnimalCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC550B2015AB3C009D2666 /* AnimalCustomCell.swift */; };
+		C6FC550E2015C50F009D2666 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC550D2015C50F009D2666 /* Animal.swift */; };
+		C6FC55102015EC8A009D2666 /* AnimalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FC550F2015EC8A009D2666 /* AnimalDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C6FC55002015A520009D2666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6FC55032015A520009D2666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6FC55052015A520009D2666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6FC550B2015AB3C009D2666 /* AnimalCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCustomCell.swift; sourceTree = "<group>"; };
+		C6FC550D2015C50F009D2666 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		C6FC550F2015EC8A009D2666 /* AnimalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				C6FC55002015A520009D2666 /* Assets.xcassets */,
 				C6FC55022015A520009D2666 /* LaunchScreen.storyboard */,
 				C6FC55052015A520009D2666 /* Info.plist */,
+				C6FC550B2015AB3C009D2666 /* AnimalCustomCell.swift */,
+				C6FC550D2015C50F009D2666 /* Animal.swift */,
+				C6FC550F2015EC8A009D2666 /* AnimalDetailsVC.swift */,
 			);
 			path = AnimalCustomCell;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6FC54FC2015A51F009D2666 /* ViewController.swift in Sources */,
+				C6FC550E2015C50F009D2666 /* Animal.swift in Sources */,
+				C6FC550C2015AB3C009D2666 /* AnimalCustomCell.swift in Sources */,
+				C6FC55102015EC8A009D2666 /* AnimalDetailsVC.swift in Sources */,
 				C6FC54FA2015A51F009D2666 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
